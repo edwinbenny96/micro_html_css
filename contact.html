@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about page</title>
+    <link rel="stylesheet" href="css/styles_contact.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contact-form id="floatingForm">
+        <h1>Contact Us</h1>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required placeholder="Enter your name"><br><br>
+
+            <label for="mobile">Mobile:</label>
+            <input type="tel" name="mobile" id="mobile" required placeholder="Enter your mobile number" pattern="[0-9]{10}"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required placeholder="Enter your email"><br><br>
+
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" required placeholder="Enter your message" style="resize: none;" rows="3" cols="20"></textarea><br><br>
+            <input type="submit" name"submit" id="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer class="sticky-footer">
+      <p>Contact us at: contact@example.com</p>
+    </footer>
+  </body>
+</html>
